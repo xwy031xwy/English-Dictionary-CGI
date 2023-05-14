@@ -3,7 +3,7 @@ CGI Program with Enhanced Features: Word Search, Learning Functionality, and Cus
 
 
 
-# Example
+# Executation
 ## 1. Look up word 単語を検索する
 - Search 検索画面
 
