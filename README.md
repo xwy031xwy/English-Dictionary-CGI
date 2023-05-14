@@ -5,10 +5,13 @@ CGI Program with Enhanced Features: Word Search, Learning Functionality, and Cus
 
 # Example
 ## 1. Look up word 単語を検索する
-
-![Search 検索画面](IMG/1.1.png)
+Search 検索画面
+![Search 検索画面](IMG/1.1.png=400x)
+In case of additional search 追加検索の場
 ![In case of additional search 追加検索の場合](IMG/1.2.png)
+When the input is empty 空欄の場合
 ![When the input is empty 空欄の場合](IMG/1.3.png)
+When the word cannot be found 単語が検索できない場合
 ![When the word cannot be found 単語が検索できない場合](IMG/1.4.png)
 
 ## 2. Add to the word list 単語リストに追加する
