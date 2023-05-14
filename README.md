@@ -48,14 +48,18 @@ CGI Program with Enhanced Features: Word Search, Learning Functionality, and Cus
 ![If there is no word inside the list 単語リストがあいている場合](IMG/3.4.png)
 
 ## 4. Begin and End学習開始・終了
-Begin study 学習開始画
+- Begin study 学習開始画
+
 ![Begin study 学習開始画面](IMG/4.1.png)
 
-Show the meanings 意味の表示
+- Show the meanings 意味の表示
+
 ![Show the meanings 意味の表示](IMG/4.2.png)
 
-When end study 学習終了画面
+- When end study 学習終了画面
+
 ![When end study 学習終了画面](IMG/4.3.png)
 
-Update the word list 学習前後単語リストの更新（左：学習前 右：学習後）
+- Update the word list 学習前後単語リストの更新（左：学習前 右：学習後）
+
 ![Update the word list 学習前後単語リストの更新（左：学習前 右：学習後）](IMG/4.4.png)
