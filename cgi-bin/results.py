@@ -4,7 +4,7 @@
 import requests
 import sys, io
 import cgi
-from R02_sql import addToList
+from sql import addToList
 import sqlite3
 
 con = sqlite3.connect('words.sqlite3')
@@ -85,7 +85,7 @@ elif word != '':
                 else:
                     results += '<h4>' + trans[j] + '</h4>' + '<h4> なし </h4>'
         results += '</div>'
-        add = '<form method="GET" action="/cgi-bin/19K1109-R02-results.py">'
+        add = '<form method="GET" action="/cgi-bin/results.py">'
         add += f'<button name="addToList" type="submit" value={word}>＋単語リスト</button></form>'.format(word=word)
 
     except:
@@ -115,11 +115,11 @@ template = """
 <body>
 <div id="center">
 <p class="btn-border-bottom" style="font-size:16px">検索モード</p> &ensp;&ensp;
-<a href="/cgi-bin/19K1109-R02-studyMode.py" class="border_spread_btn">学習モード</a></br>
+<a href="/cgi-bin/studyMode.py" class="border_spread_btn">学習モード</a></br>
     <h1 style="font-size:24px">{word} </h1>
     <pre>{syllables}  {pronunciation}</pre></p>
     <pre> {add}{results} </pre>
-    <form method="GET" action="/cgi-bin/19K1109-R02-searchMode.py">
+    <form method="GET" action="/cgi-bin/searchMode.py">
     <button type="submit">戻る</button>
     </form>
 
